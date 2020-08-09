@@ -7,20 +7,24 @@
   </head>
 
   <body>
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1>Hello World!we are software developers!</h1>
-    <!--
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form">
+    <div id="form">
+      <label id="name-label">Name<br> <input type="text" id="name" name="name" placeholder="Enter your name" required="required"></label>
+      <label id="email-label">Email<br> <input type="email" id="email" name="email" placeholder="Enter your email" required="required"></label>
+      <label id="number-label">Age<br> <input type="number" id="number" name="age" placeholder="Age" min="0" max="0"></label>
+      <label id="name-label">Name<br> <input type="text" id="name" name="name" placeholder="Enter your name"></label>
 
-    Hello Camper!
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+      
 
-    - The freeCodeCamp Team
 
-    -->
-    <script src="js/index.js"></script>
+    </div>
+    
+  </form>
+  <script src="js/index.js"></script>
   </body>
 </html>
